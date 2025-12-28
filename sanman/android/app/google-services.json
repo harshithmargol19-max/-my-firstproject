@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "963730494362",
+    "project_id": "my-first-hp1910",
+    "storage_bucket": "my-first-hp1910.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:963730494362:android:3c5004bcd526ee7cfda023",
+        "android_client_info": {
+          "package_name": "com.hp.sanman"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0_V7TAmH4dsNKC4zsjMjBkfbwj-w9yoA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

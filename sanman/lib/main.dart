@@ -4,7 +4,6 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:sanman/views/login_view.dart';
 import 'package:sanman/views/register_view.dart';
 import 'package:sanman/views/verify_email_view.dart';
-import 'dart:developer' as devtools show log;
 import 'firebase_options.dart';
 
 // <- Make sure this file exists from flutterfire configure
@@ -22,6 +21,7 @@ void main() async {
       routes: {
         '/login/': (context) => const LoginView(),
         '/register/': (context) => const RegisterView(),
+        '/notes/': (context) => const _Mynotes(),
       },
     ),
   );
